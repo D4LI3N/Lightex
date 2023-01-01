@@ -1,11 +1,19 @@
 # Lightex
-Lightex is a device that can automatically control lights by detecting the proximity of your chosen slave device, using BT's iBeacon technology.
+
+[![badge](https://img.shields.io/badge/license-GNU_GPL_3.0-success.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
+[![badge](https://img.shields.io/badge/support-PayPal-blue.svg)](https://paypal.me/d4li3n?country.x=HR&locale.x=en_US)
+[![badge](https://img.shields.io/badge/publication-danielthecyberdude.com-purple.svg)](https://danielthecyberdude.com/project/lightex)
+
+[![badge](https://img.shields.io/badge/technology-C/C++-green.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
+[![badge](https://img.shields.io/badge/technology-Arduino-green.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
+
+**Lightex** is a device that can automatically control lights by detecting the proximity of your chosen slave device, using BT's iBeacon technology.
 
 iBeacon is a small, cheap and long-lasting device that sends signals periodically to the master device(Lightex), also in theory, any device can be used as an iBeacon device as long as it supports Bluetooth 4.0+. (such as your smartphone most conveniently)
 
 The project is primarily intended to be used with RV light systems, but can potentially be used to control any 10Amp AC/DC device, not just RV lights.
 
-# Project Features
+# 1. Project Features
 - binary control of light installation (ON/OFF)
 - proximity detection of the iBeacon device (about 8m of spherical range)
 - light detection using photoresistor extension (day/night)
@@ -15,7 +23,7 @@ The project is primarily intended to be used with RV light systems, but can pote
 - supports multiple iBeacon devices (you can use an unlimited number of iBeacon devices with the same ID)
 - USB debugging (serial debug output)
 
-# Operation
+# 2. Operation
 When the photoresistor extension is connected to the Lightex, it can detect day or night, and only turns ON by NIGHT.
 
 If the photoresistor extension is not connected, it detects that as NIGHT, and in that case, it's always ON.
@@ -25,20 +33,21 @@ When the user again gets in range, the lights turn ON instantly without delay.
 
 ‍
 
-# Project Description
-## The main unit:
+# 3. Project Description
+
+## 3.1 The main unit:
 Lightex custom-made board
-## Arbitrary unit:
+## 3.2 Arbitrary unit:
 Photoresistor extension
 ‍
 
 
-# Technology Overview
-## Software:
+# 4. Technology Overview
+## 4.1 Software:
 C/C++.
 
-## Hardware:
-### Lightex board:
+## 4.2 Hardware:
+### 4.2.1 Lightex board:
 - ESP32 chip (NodeMCU, ESP-WROOM-32, 38-pin board)
 - 5VDC/10A relay board (with optocoupler circuit isolation)
 - 24V DC-DC Adjustable step-down buck power converter
