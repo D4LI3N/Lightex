@@ -4,8 +4,8 @@
 [![badge](https://img.shields.io/badge/support-PayPal-blue.svg)](https://paypal.me/d4li3n?country.x=HR&locale.x=en_US)
 [![badge](https://img.shields.io/badge/publication-danielthecyberdude.com-purple.svg)](https://danielthecyberdude.com/project/lightex)
 
-[![badge](https://img.shields.io/badge/technology-C/C++-green.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
-[![badge](https://img.shields.io/badge/technology-Arduino-green.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
+![badge](https://img.shields.io/badge/technology-C/C++-green.svg)
+![badge](https://img.shields.io/badge/technology-Arduino-green.svg)
 
 **Lightex** is a device that can automatically control lights by detecting the proximity of your chosen slave device, using BT's iBeacon technology.
 
