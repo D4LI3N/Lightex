@@ -31,8 +31,6 @@ If Lightex is in NIGHT mode, as long as the user(iBeacon) is in range, the light
 In STANDBY mode, the device checks if the user is in range.
 When the user again gets in range, the lights turn ON instantly without delay.
 
-‍
-
 # 3. Project Description
 
 ## 3.1 The main unit:
