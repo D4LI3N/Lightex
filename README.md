@@ -1,6 +1,6 @@
 # Lightex
 
-[![badge](https://img.shields.io/badge/license-GNU_GPL_3.0-success.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
+[![badge](https://img.shields.io/badge/license-MIT-success.svg)](https://opensource.org/licenses/MIT)
 [![badge](https://img.shields.io/badge/support-PayPal-blue.svg)](https://paypal.me/d4li3n?country.x=HR&locale.x=en_US)
 [![badge](https://img.shields.io/badge/publication-danielthecyberdude.com-purple.svg)](https://danielthecyberdude.com/project/lightex)
 
