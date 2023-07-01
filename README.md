@@ -13,7 +13,7 @@ iBeacon is a small, cheap and long-lasting device that sends signals periodicall
 
 The project is primarily intended to be used with RV light systems, but can potentially be used to control any 10Amp AC/DC device, not just RV lights.
 
-# 1. Project Features
+# Project Features
 - binary control of light installation (ON/OFF)
 - proximity detection of the iBeacon device (about 8m of spherical range)
 - light detection using photoresistor extension (day/night)
@@ -23,7 +23,7 @@ The project is primarily intended to be used with RV light systems, but can pote
 - supports multiple iBeacon devices (you can use an unlimited number of iBeacon devices with the same ID)
 - USB debugging (serial debug output)
 
-# 2. Operation
+# Operation
 When the photoresistor extension is connected to the Lightex, it can detect day or night, and only turns ON by NIGHT.
 
 If the photoresistor extension is not connected, it detects that as NIGHT, and in that case, it's always ON.
@@ -31,21 +31,21 @@ If Lightex is in NIGHT mode, as long as the user(iBeacon) is in range, the light
 In STANDBY mode, the device checks if the user is in range.
 When the user again gets in range, the lights turn ON instantly without delay.
 
-# 3. Project Description
+# Project Description
 
-## 3.1 The main unit:
+## The main unit:
 Lightex custom-made board
-## 3.2 Arbitrary unit:
+## Arbitrary unit:
 Photoresistor extension
 ‍
 
 
-# 4. Technology Overview
-## 4.1 Software:
+# Technology Overview
+## Software:
 C/C++.
 
-## 4.2 Hardware:
-### 4.2.1 Lightex board:
+## Hardware:
+### Lightex board:
 - ESP32 chip (NodeMCU, ESP-WROOM-32, 38-pin board)
 - 5VDC/10A relay board (with optocoupler circuit isolation)
 - 24V DC-DC Adjustable step-down buck power converter
