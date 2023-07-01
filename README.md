@@ -33,7 +33,7 @@ When the user again gets in range, the lights turn ON instantly without delay.
 
 # Project Description
 
-## The main unit:
+## The main unit:
 Lightex custom-made board
 ## Arbitrary unit:
 Photoresistor extension
@@ -42,7 +42,7 @@ Photoresistor extension
 
 # Technology Overview
 ## Software:
-C/C++.
+- C/C++
 
 ## Hardware:
 ### Lightex board:
