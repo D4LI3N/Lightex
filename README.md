@@ -4,6 +4,7 @@
 
 ![badge](https://img.shields.io/badge/technology-C/C++-green.svg)
 ![badge](https://img.shields.io/badge/technology-Arduino-green.svg)
+![badge](https://img.shields.io/badge/technology-iBeacon-green.svg)
 
 ![Lightex](https://github.com/D4LI3N/Lightex/assets/39681746/1693270b-71df-4863-95c2-7b3b60d94087)
 
