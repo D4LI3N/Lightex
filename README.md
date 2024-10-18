@@ -15,14 +15,21 @@ iBeacon is a small, cheap and long-lasting device that sends signals periodicall
 The project is primarily intended to be used with RV light systems, but can potentially be used to control any 10Amp AC/DC device, not just RV lights.
 
 # Project Features
-- binary control of light installation (ON/OFF)
-- proximity detection of the iBeacon device (about 8m of spherical range)
-- light detection using photoresistor extension (day/night)
-- dual power input 5V/12V (can be powered by unregulated 5V or 12V DC power source)
-- timeout when not in range (1min for lights to go in OFF/STANDBY mode)
-- when using a smartphone, a Bluetooth switch can also be used to turn the lights ON/OFF
-- supports multiple iBeacon devices (you can use an unlimited number of iBeacon devices with the same ID)
-- USB debugging (serial debug output)
+✔️ binary control of light installation (ON/OFF)
+
+✔️ proximity detection of the iBeacon device (about 8m of spherical range)
+
+✔️ light detection using photoresistor extension (day/night)
+
+✔️ dual power input 5V/12V (can be powered by unregulated 5V or 12V DC power source)
+
+✔️ timeout when not in range (1min for lights to go in OFF/STANDBY mode)
+
+✔️ when using a smartphone, a Bluetooth switch can also be used to turn the lights ON/OFF
+
+✔️ supports multiple iBeacon devices (you can use an unlimited number of iBeacon devices with the same ID)
+
+✔️ USB debugging (serial debug output)
 
 # Operation
 When the photoresistor extension is connected to the Lightex, it can detect day or night, and only turns ON by NIGHT.
